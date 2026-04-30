@@ -1,0 +1,14 @@
+{
+  "name": "crypto-discord-bot",
+  "version": "1.0.0",
+  "description": "Crypto Discord bot with price alerts, portfolio tracking, and webhook signals",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}

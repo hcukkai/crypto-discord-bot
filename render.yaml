@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: crypto-discord-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: node bot.js
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
